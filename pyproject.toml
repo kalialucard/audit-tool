@@ -1,0 +1,15 @@
+[project]
+name = "audittool"
+version = "1.0.0"
+description = "Smart Contract Audit Report Extractor"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "click",
+    "pdfplumber",
+    "pymupdf",
+    "beautifulsoup4",
+]
+
+[project.scripts]
+audittool = "audittool.cli:main"
