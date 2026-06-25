@@ -91,3 +91,4 @@ The code is organized as follows:
 - `audittool/extractor.py`: High-level orchestration.
 - `audittool/reporter.py`: Terminal and Markdown output generation.
 - `audittool/cli.py`: Click CLI implementation.
+# audit-tool
